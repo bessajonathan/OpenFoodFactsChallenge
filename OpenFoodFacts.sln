@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.30709.132
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "OpenFoodFacts.API", "OpenFoodFacts.Api\OpenFoodFacts.API.csproj", "{A6AE5152-E3A8-49DA-859A-04AEA53C4B63}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenFoodFacts.Application", "OpenFoodFacts.Application\OpenFoodFacts.Application.csproj", "{76923B85-50C2-44F7-9811-F3CD286D0751}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenFoodFacts.Domain", "OpenFoodFacts.Domain\OpenFoodFacts.Domain.csproj", "{BEB2625B-0DAF-4B42-9BBE-859963AD3E0A}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenFoodFacts.Common", "OpenFoodFacts.Common\OpenFoodFacts.Common.csproj", "{7B50EF7F-CADB-4F8B-9C98-C0F46D29A5AC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenFoodFacts.Infra", "OpenFoodFacts.Infra\OpenFoodFacts.Infra.csproj", "{3D632BA9-697E-4D21-9C92-880E92F037DB}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "OpenFoodFacts.Persistence", "OpenFoodFacts.Persistence\OpenFoodFacts.Persistence.csproj", "{20C68C32-91A0-42A9-B31A-C3FC9C4862E1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{A6AE5152-E3A8-49DA-859A-04AEA53C4B63}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A6AE5152-E3A8-49DA-859A-04AEA53C4B63}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A6AE5152-E3A8-49DA-859A-04AEA53C4B63}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A6AE5152-E3A8-49DA-859A-04AEA53C4B63}.Release|Any CPU.Build.0 = Release|Any CPU
+		{76923B85-50C2-44F7-9811-F3CD286D0751}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{76923B85-50C2-44F7-9811-F3CD286D0751}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{76923B85-50C2-44F7-9811-F3CD286D0751}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{76923B85-50C2-44F7-9811-F3CD286D0751}.Release|Any CPU.Build.0 = Release|Any CPU
+		{BEB2625B-0DAF-4B42-9BBE-859963AD3E0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{BEB2625B-0DAF-4B42-9BBE-859963AD3E0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{BEB2625B-0DAF-4B42-9BBE-859963AD3E0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{BEB2625B-0DAF-4B42-9BBE-859963AD3E0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7B50EF7F-CADB-4F8B-9C98-C0F46D29A5AC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7B50EF7F-CADB-4F8B-9C98-C0F46D29A5AC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7B50EF7F-CADB-4F8B-9C98-C0F46D29A5AC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7B50EF7F-CADB-4F8B-9C98-C0F46D29A5AC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3D632BA9-697E-4D21-9C92-880E92F037DB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3D632BA9-697E-4D21-9C92-880E92F037DB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3D632BA9-697E-4D21-9C92-880E92F037DB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3D632BA9-697E-4D21-9C92-880E92F037DB}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20C68C32-91A0-42A9-B31A-C3FC9C4862E1}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20C68C32-91A0-42A9-B31A-C3FC9C4862E1}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20C68C32-91A0-42A9-B31A-C3FC9C4862E1}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20C68C32-91A0-42A9-B31A-C3FC9C4862E1}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {3DC0D4AF-7223-4344-939D-90F943D361DB}
+	EndGlobalSection
+EndGlobal

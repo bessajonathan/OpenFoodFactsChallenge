@@ -1,0 +1,48 @@
+<?xml version="1.0"?>
+<doc>
+    <assembly>
+        <name>OpenFoodFacts.Api</name>
+    </assembly>
+    <members>
+        <member name="M:OpenFoodFacts.API.Controllers.ProductController.Home(MediatR.IMediator)">
+            <summary>
+            Get Api Details
+            </summary>
+            <param name="mediator"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OpenFoodFacts.API.Controllers.ProductController.GetProducts(MediatR.IMediator,OpenFoodFacts.Application.Product.Queries.GetProductsQuery)">
+            <summary>
+            Get products
+            </summary>
+            <param name="mediator"></param>
+            <param name="query"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OpenFoodFacts.API.Controllers.ProductController.GetProduct(MediatR.IMediator,System.String)">
+            <summary>
+            Get product by code
+            </summary>
+            <param name="mediator"></param>
+            <param name="code"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OpenFoodFacts.API.Controllers.ProductController.ChangeProductStatus(MediatR.IMediator,System.String)">
+            <summary>
+            Change product status for trash
+            </summary>
+            <param name="mediator"></param>
+            <param name="code"></param>
+            <returns></returns>
+        </member>
+        <member name="M:OpenFoodFacts.API.Controllers.ProductController.UpdateProduct(MediatR.IMediator,System.String,OpenFoodFacts.Application.Product.Commands.Update.UpdateProductCommand)">
+            <summary>
+            Update product
+            </summary>
+            <param name="mediator"></param>
+            <param name="code"></param>
+            <param name="command"></param>
+            <returns></returns>
+        </member>
+    </members>
+</doc>

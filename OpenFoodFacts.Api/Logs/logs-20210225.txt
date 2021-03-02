@@ -1,0 +1,14 @@
+2021-02-25T14:29:01.4622482-03:00  [INF] Starting Hangfire Server using job storage: 'Connection string: HangfireDb.db,  prefix: hangfire' (3b5ca34b)
+2021-02-25T14:29:01.4716794-03:00  [INF] Using the following options for Hangfire Server:
+    Worker count: 20
+    Listening queues: 'default'
+    Shutdown timeout: 00:00:15
+    Schedule polling interval: 00:00:15 (3b5ca34b)
+2021-02-25T14:29:01.9970620-03:00  [INF] Server desktop-924rau9.5b5bffde-bd00-492b-a551-cb9814b8f396:24268:236f1847 successfully announced in 444,0511 ms (3b5ca34b)
+2021-02-25T14:29:02.0297569-03:00  [INF] Server desktop-924rau9.5b5bffde-bd00-492b-a551-cb9814b8f396:24268:236f1847 is starting the registered dispatchers: ServerWatchdog, ServerJobCancellationWatcher, ExpirationManager, CountersAggregator, Worker, DelayedJobScheduler, RecurringJobScheduler... (3b5ca34b)
+2021-02-25T14:29:02.0967577-03:00  [INF] 1 servers were removed due to timeout (3b5ca34b)
+2021-02-25T14:29:02.3322826-03:00  [INF] Server desktop-924rau9.5b5bffde-bd00-492b-a551-cb9814b8f396:24268:236f1847 all the dispatchers started (3b5ca34b)
+2021-02-25T14:29:02.8837943-03:00  [INF] Application started. Press Ctrl+C to shut down. (dcaefe54)
+2021-02-25T14:29:02.9035161-03:00  [INF] Hosting environment: "Development" (c3307c92)
+2021-02-25T14:29:02.9112358-03:00  [INF] Content root path: "C:\Celcoin\dotnet-20200902\Challenge\OpenFoodFacts\OpenFoodFacts.Api" (b5d60022)
+2021-02-25T14:45:14.0643464-03:00 8000000f-0000-fe00-b63f-84710c7967bb [WRN] The query uses the 'First'/'FirstOrDefault' operator without 'OrderBy' and filter operators. This may lead to unpredictable results. (f43d926b)
